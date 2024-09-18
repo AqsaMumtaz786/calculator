@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="body">
+     <h3>Simple Calculator</h3>
+     <input type="text"  disabled id="input-value"/>
+     <div class="first-button">
+      <button class="btn-1" onclick="clearall()">C</button>
+      <button class="btn-1" onclick= "deleteall()">DEL</button>
+      <button class="btn-1" onclick= "append('/')">\</button>
+      <button class="btn-1" onclick= "append('*')">*</button>
+     </div>
+     <div class="first-button">
+        <button class="btn-1" onclick= "append('4')">7</button>
+        <button class="btn-1" onclick= "append('4')">8</button>
+        <button class="btn-1" onclick= "append('4')">9</button>
+        <button class="btn-1" onclick= "append('-')">-</button>
+       </div>
+       <div class="first-button">
+        <button class="btn-1" onclick= "append('4')" >4</button>
+        <button class="btn-1" onclick= "append('5')" >5</button>
+        <button class="btn-1" onclick= "append('6')" >6</button>
+        <button class="btn-1" onclick= "append('+')" >+</button>
+       </div>
+       <div class="first-button">
+        <button class="btn-1" onclick= "append('1')" >1</button>
+        <button class="btn-1" onclick= "append('2')">2</button>
+        <button class="btn-1" onclick= "append('3')">3</button>
+        <button class="btn-1" onclick= "appendcharacter()">=</button>
+       </div>
+       <div class="first-button">
+        <button class="btn-1" onclick= "append('0')">0</button>
+        <button class="btn-1" onclick= "append('.')">.</button>
+       </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
